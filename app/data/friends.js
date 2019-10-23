@@ -1,3 +1,4 @@
+// Setting up friends array to store the friends 
 var friends = [
     {
         name: "Arda Turan",
