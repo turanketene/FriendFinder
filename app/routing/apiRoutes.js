@@ -42,10 +42,10 @@ module.exports = function (app) {
             }
         }
 
-        // The push method use to save user's data to the database
+        // Pushing the user's data to the server database
         friends.push(userData);
 
-        //The res.json method will return a JSON data with the user's match which was looped through frieds data array. 
+        //The res.json method will return a JSON data with the user's match
         res.json(bestMatch);
     });
 };
